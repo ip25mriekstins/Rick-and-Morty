@@ -271,7 +271,7 @@ a:hover, .about-link:hover {
  }
  .nav-bar{
     width: 20%;
-    justify-content: center;
+    justify-content: flex-start;
  }
  .nav-bar svg{
    margin-right: 130px;
