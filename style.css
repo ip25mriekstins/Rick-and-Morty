@@ -276,6 +276,7 @@ a:hover, .about-link:hover {
  .nav-bar svg{
    margin-right: 130px;
    padding: 0;
+    gap:10;
 }
 
 
