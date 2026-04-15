@@ -63,7 +63,7 @@ a:hover, .about-link:hover {
     height: 45px;
     width: 45px;
     position: fixed;
-    top: 40rem;
+    top: 85%;
     right: 40px;
     border-radius: 50%;
     background-color: rgb(60, 62, 68);
