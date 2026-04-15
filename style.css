@@ -270,7 +270,7 @@ a:hover, .about-link:hover {
     font-size: 70px;
  }
  .nav-bar{
-    transform: scale(0.7);
+    transform: scale(0.8);
     justify-content: flex-start;
  }
  .nav-bar svg{
