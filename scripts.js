@@ -75,14 +75,14 @@ fetch('https://rickandmortyapi.com/api/character/?page='+[page])
         const episode = document.createElement('h3');
         const statusImg = document.createElement('img');
         
-        div.className = 'content-characters-inner-kastes'
-        image.classList = 'content-characters-inner-kastes-bilde'
-        last.className = 'Virsraksti'
-        first.className = 'Virsraksti'
-        statusImg.className = 'statusImg'
+        div.className = 'content-characters-inner-kastes';
+        image.classList = 'content-characters-inner-kastes-bilde';
+        last.className = 'Virsraksti';
+        first.className = 'Virsraksti';
+        statusImg.className = 'statusImg';
 
         image.setAttribute("alt","CharacterImages");
-        statusImg.setAttribute("alt","StatusImage")
+        statusImg.setAttribute("alt","StatusImage");
 
 
         let StatusImg;
@@ -91,31 +91,31 @@ fetch('https://rickandmortyapi.com/api/character/?page='+[page])
         }else if (character.status =="Dead"){
          StatusImg = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Simple_red_circle.svg/500px-Simple_red_circle.svg.png";
         }else{
-          StatusImg = "https://cdn-icons-png.flaticon.com/512/5720/5720434.png"
+          StatusImg = "https://cdn-icons-png.flaticon.com/512/5720/5720434.png";
         }
 
-        image.src = character.image
-        name.innerText = character.name
-        species.innerText = character.status + " - " + character.species 
-        last.innerText ="Last known location:"
-        idkk.innerText = character.location.name
-        first.innerText = "Origin:"
-        episode.innerText = character.origin.name
-        statusImg.src = StatusImg
+        image.src = character.image;
+        name.innerText = character.name;
+        species.innerText = character.status + " - " + character.species ;
+        last.innerText ="Last known location:";
+        idkk.innerText = character.location.name;
+        first.innerText = "Origin:";
+        episode.innerText = character.origin.name;
+        statusImg.src = StatusImg;
 
 
-        div.appendChild(imgdiv)
-        div.appendChild(imgdiv)
-        div.appendChild(textdiv)
-        imgdiv.appendChild(image)
-        textdiv.appendChild(name)
-        species.appendChild(statusImg)
-        textdiv.appendChild(species)
-        textdiv.appendChild(last)
-        textdiv.appendChild(idkk)
-        textdiv.appendChild(first)
-        textdiv.appendChild(episode)
-        cardsContainer.appendChild(div)
+        div.appendChild(imgdiv);
+        div.appendChild(imgdiv);
+        div.appendChild(textdiv);
+        imgdiv.appendChild(image);
+        textdiv.appendChild(name);
+        species.appendChild(statusImg);
+        textdiv.appendChild(species);
+        textdiv.appendChild(last);
+        textdiv.appendChild(idkk);
+        textdiv.appendChild(first);
+        textdiv.appendChild(episode);
+        cardsContainer.appendChild(div);
         
       });
     };
