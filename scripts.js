@@ -23,6 +23,7 @@ function goToLastPage(){
 function goToNextPage(){
   if(page==42){
     page=42;
+    alert("Diemžēl nav vairāk lapu");
   }else{
   page++;
   console.log(page);
@@ -37,6 +38,7 @@ function goToNextPage(){
 function goToPrevPage(){
   if(page==1){
     page=1;
+    alert("Iemācies skaitīt nav tādas lapas 0");
   }else{
   page=page-1;
   console.log(page);
