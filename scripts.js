@@ -86,7 +86,6 @@ fetch('https://rickandmortyapi.com/api/character/?page='+[page])
         image.setAttribute("alt","CharacterImages");
         statusImg.setAttribute("alt","StatusImage");
 
-
         let StatusImg;
         if (character.status=="Alive"){
          StatusImg = "https://upload.wikimedia.org/wikipedia/commons/6/6a/Green_Dot_%28Active%29.png";
@@ -105,7 +104,6 @@ fetch('https://rickandmortyapi.com/api/character/?page='+[page])
         episode.innerText = character.origin.name;
         statusImg.src = StatusImg;
 
-
         div.appendChild(imgdiv);
         div.appendChild(imgdiv);
         div.appendChild(textdiv);
@@ -118,7 +116,6 @@ fetch('https://rickandmortyapi.com/api/character/?page='+[page])
         textdiv.appendChild(first);
         textdiv.appendChild(episode);
         cardsContainer.appendChild(div);
-        
       });
     };
 }
