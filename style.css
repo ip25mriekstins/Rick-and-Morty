@@ -193,7 +193,7 @@ a:hover, .about-link:hover {
     margin-top: 20px;
   }
   
-  .button {
+  .page-buttons {
     display: block;
     padding: 8px 12px;
     text-decoration: none;
@@ -205,14 +205,7 @@ a:hover, .about-link:hover {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   }
 
-  .button:active {
-    background-color: gray;
-    border: 1px solid black;
-    color: black;
-    border-radius: 5px;
-  } 
-
-  .button:hover {
+  .page-buttons:hover {
     border: 1px solid transparent;
     background-color: rgb(255, 152, 0);
     color: black;
